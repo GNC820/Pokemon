@@ -24,7 +24,7 @@ app.use(express.json()); // New
 
 // db connection
 const mongoose = require("mongoose");
-// mongoose.connect(`mongodb://${process.env.MONGOHOST}:${process.env.MONGOPORT}`);
+mongoose.connect(`mongodb+srv://<ganuci>:<Pokemon123>@cluster0.sqbpsea.mongodb.net/?retryWrites=true&w=majority`);
 mongoose.connect(`${process.env.URL}`);
 
 // Routes
