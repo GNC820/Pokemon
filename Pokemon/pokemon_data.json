@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Bulbasaur",
+        "id": "#001",
+        "imageurl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+        "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+        "height": "2' 04\"",
+        "category": "Seed",
+        "weight": "15.2 lbs",
+        "typeofpokemon": "Grass",
+        "price": "$17"
+    },
+    {
+        "name": "Ivysaur",
+        "id": "#002",
+        "imageurl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+        "description": "There is a bud on this Pok\u00e9mon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong",
+        "height": "3' 04\"",
+        "category": "Seed",
+        "weight": "28.7 lbs",
+        "typeofpokemon": "Poison",
+        "price": "$21"
+    },
+    {
+        "name": "Venusaur",
+        "id": "#003",
+        "imageurl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+        "description": "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight.",
+        "height": "6' 07\"",
+        "category": "Seed",
+        "weight": "220.5 lbs",
+        "typeofpokemon": "Poison",
+        "price": "$34"
+    },
+    {
+        "name": "Charmander",
+        "id": "#004",
+        "imageurl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+        "description": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pok\u00e9mon becomes enraged, the flame burns fiercely.",
+        "height": "2' 00\"",
+        "category": "Lizard",
+        "weight": "18.7 lbs",
+        "typeofpokemon": "Fire",
+        "price": "$100"
+    },
+    {
+        "name": "Charmeleon",
+        "id": "#005",
+        "imageurl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png",
+        "description": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
+        "height": "3' 07\"",
+        "category": "Flame",
+        "weight": "41.9 lbs",
+        "typeofpokemon": "Fire",
+        "price": "$70"
+    },
+    {
+        "name": "Charizard",
+        "id": "#006",
+        "imageurl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+        "description": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+        "height": "5' 07\"",
+        "category": "Flame",
+        "weight": "199.5 lbs",
+        "typeofpokemon": "Flying",
+        "price": "$29"
+    },
+    {
+        "name": "Squirtle",
+        "id": "#007",
+        "imageurl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+        "description": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pok\u00e9mon to swim at high speeds.",
+        "height": "1' 08\"",
+        "category": "Tiny Turtle",
+        "weight": "19.8 lbs",
+        "typeofpokemon": "Water",
+        "price": "$74"
+    },
+    {
+        "name": "Wartortle",
+        "id": "#008",
+        "imageurl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+        "description": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pok\u00e9mon's toughness as a battler.",
+        "height": "3' 03\"",
+        "category": "Turtle",
+        "weight": "49.6 lbs",
+        "typeofpokemon": "Water",
+        "price": "$26"
+    }
+]
