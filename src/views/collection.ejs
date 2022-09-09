@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head'); %>
+  </head>
+  <body>
+    <%- include('./partials/header') %>
+    <div class="container">
+      <div class="row">
+        <% if(collectionData.length !== 0) { %> <%
+        collectionData.forEach(function(item, index) { %>
+        <div class="col-6 col-sm-4">
+          <div class="card" style="width: 20rem; margin-bottom: 20px" >
+            <img
+              class="card-img-top"
+              src="<%- item.imageurl %>"
+
+            />
+            <div class="card-body">
+              <form action="/basket/add">
+                <h5 class="card-title"><%- item.name%></h5>
+                <p class="card-text" style="min-height: 120px">
+                  <%- item.description %>
+                </p>
+               
+                <span class="badge badge-pill badge-secondary">Weight: <span style="color: black"><%- item.weight%></span> </span>
+                <span class="badge badge-pill badge-success">Category: <span style="color: black"><%- item.category%></span></span>
+                <span class="badge badge-pill badge-danger">Type: <span style="color: black"><%- item.typeofpokemon%></span></span>
+                <span class="badge badge-pill badge-info">Height: <span style="color: black"><%- item.height%></span></span>
+                <br>
+                <br>
+                <button
+                style="width: 50%"
+                class="btn btn-warning"
+                name="<%- item.name %>"
+                type="Submit"
+              
+              >
+              <i class="mdi mdi-cart"></i>
+              Buy
+              
+              </button>
+              <p >
+                Price <strong><%- item.price %></strong>
+               </p>
+          </form>
+            </div>
+          </div>
+        
+        </div>
+        <% }) %> <% } else { %> No items found. <% } %>
+      </div>
+    </div>
+  </body>
+</html>
