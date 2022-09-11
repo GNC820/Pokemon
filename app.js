@@ -24,7 +24,7 @@ app.use(express.json()); // New
 
 // db connection
 const mongoose = require("mongoose");
-sssmongoose.connect("mongodb+srv://ganuci:Pokemon123@cluster0.qf5nt5l.mongodb.net/?retryWrites=true&w=majority");
+//mongoose.connect("mongodb+srv://ganuci:Pokemon123@cluster0.qf5nt5l.mongodb.net/?retryWrites=true&w=majority");
 mongoose.connect(`${process.env.URL}`);
 
 // Routes
